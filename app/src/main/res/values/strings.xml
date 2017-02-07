@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sophia</string>
+    <string name="play">JOGAR</string>
+    <string name="tutorial">TUTORIAL</string>
+
+    <!-- PLAY -->
+    <string name="play0">Coloque o smartphone no bolso</string>
+    <string name="play1">Desenvolva uma atividade</string>
+
+    <!-- TUTORIAL -->
+    <string name="tutorial1">Olá! Meu nome é Sophia! Eu sou muito boa em reconhecer atividades. Neste passo a passo, irei mostrar como eu faço isso. Vamos lá!</string>
+    <string name="tutorial2">Para que tudo funcione corretamente, peço que você siga as seguintes instruções:</string>
+    <string name="tutorial3">1 - Quando eu mandar coloque o celular no bolso</string>
+    <string name="tutorial4">2 - Quando eu fizer seu celular vibrar, realize uma atividade</string>
+    <string name="tutorial5">3 - Ao ouvir uma alerta sonora, retire o celular do bolso</string>
+
+    <!-- RESULTADO -->
+    <string name="result0">Desculpe, não consegui reconhecer seu padrão de atividade</string>
+    <string name="result1">Você estava PARADO?</string>
+    <string name="result2">Você estava ANDANDO?</string>
+    <string name="result3">Você estava CORRENDO?</string>
+    <string name="result4">Você estava ANDANDO DE BICICLETA?</string>
+    <string name="result5">Você está DIRIGINDO?</string>
+
+</resources>
