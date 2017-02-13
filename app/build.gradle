@@ -5,11 +5,12 @@ android {
     buildToolsVersion "25.0.1"
     defaultConfig {
         applicationId "br.edu.ufam.icomp.sophiaproject"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -19,6 +20,10 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -26,6 +31,9 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.google.android.gms:play-services:10.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+
 
     testCompile 'junit:junit:4.12'
 }

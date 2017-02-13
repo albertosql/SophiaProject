@@ -2,6 +2,8 @@
     <string name="app_name">Sophia</string>
     <string name="play">JOGAR</string>
     <string name="tutorial">TUTORIAL</string>
+    <string name="facebookLogin">Faça login com sua conta do Facebook para acessar:</string>
+    <string name="facebook_app_id">1801923886743324</string>
 
     <!-- PLAY -->
     <string name="play0">Coloque o smartphone no bolso</string>
@@ -21,5 +23,12 @@
     <string name="result3">Você estava CORRENDO?</string>
     <string name="result4">Você estava ANDANDO DE BICICLETA?</string>
     <string name="result5">Você está DIRIGINDO?</string>
+
+    <!-- REGISTRO -->
+    <string name="register1">ID do Facebook</string>
+    <string name="register2">Idade</string>
+    <string name="register3">Altura</string>
+    <string name="register4">Peso</string>
+    <string name="register5">Enviar</string>
 
 </resources>
