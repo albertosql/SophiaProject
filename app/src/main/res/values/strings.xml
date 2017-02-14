@@ -23,6 +23,8 @@
     <string name="result3">Você estava CORRENDO?</string>
     <string name="result4">Você estava ANDANDO DE BICICLETA?</string>
     <string name="result5">Você está DIRIGINDO?</string>
+    <string name="correto">Correto</string>
+    <string name="errado">Errado</string>
 
     <!-- REGISTRO -->
     <string name="register1">ID do Facebook</string>

@@ -22,7 +22,8 @@ public class FileManager {
     private static FileManager instance;
 
     private FileManager(){
-        arquivoLogs = "Sensors_logs";
+        arquivoLogsAcc = "Sensors_logs_Accelerometer";
+        arquivoLogsGyr = "Sensors_logs_Gyroscope";
         create();
     }
 
@@ -33,10 +34,14 @@ public class FileManager {
         return instance;
     }
 
-    private FileOutputStream arqCompleto;
+    private FileOutputStream arqCompletoAcc;
+    private FileOutputStream arqCompletoGyr;
     private FileInputStream arqCompletoIn;
-    private String arquivoLogs;
-    private File diretorioCompleto;
+    private FileInputStream arqCompletoInGyr;
+    private String arquivoLogsAcc;
+    private String arquivoLogsGyr;
+    private File diretorioCompletoAcc;
+    private File diretorioCompletoGyr;
 
 
 
@@ -50,25 +55,45 @@ public class FileManager {
         }
 
         try {
-            String nomeArquivo = arquivoLogs + ".csv";
-            diretorioCompleto = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS + "/Sophia"), nomeArquivo);
-            arqCompleto = new FileOutputStream(diretorioCompleto, true);
-            arqCompletoIn = new FileInputStream(diretorioCompleto);
+            String nomeArquivoAcc = arquivoLogsAcc + ".csv";
+            String nomeArquivoGyr = arquivoLogsGyr + ".csv";
+
+            diretorioCompletoAcc = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS + "/Sophia"), nomeArquivoAcc);
+            diretorioCompletoGyr = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS + "/Sophia"), nomeArquivoGyr);
+
+            arqCompletoAcc = new FileOutputStream(diretorioCompletoAcc, true);
+            arqCompletoGyr = new FileOutputStream(diretorioCompletoGyr, true);
+
+            arqCompletoIn = new FileInputStream(diretorioCompletoAcc);
+            arqCompletoInGyr = new FileInputStream(diretorioCompletoGyr);
 
             //Log.d(TAG, "Todos os sensores criado com sucesso\n");
             String colunas = "x1, y1, z1\n";
-            arqCompleto.write(colunas.getBytes());
-            arqCompleto.flush();
+            arqCompletoAcc.write(colunas.getBytes());
+            arqCompletoAcc.flush();
+            arqCompletoGyr.write(colunas.getBytes());
+            arqCompletoGyr.flush();
 
         } catch (Exception e) {
             Log.e(TAG, "ERRO: erro em criar o arquivo completo: " + e.getMessage());
         }
     }
 
-    public void append(String linha){
+    public void appendAcc(String linha){
         try {
-            this.arqCompleto.write(linha.getBytes());
-            this.arqCompleto.flush();
+            this.arqCompletoAcc.write(linha.getBytes());
+            this.arqCompletoAcc.flush();
+
+            Log.d(TAG, "append: Nova linha inserida");
+        }catch (Exception e){
+            Log.d(TAG, "ERRO: erro ao escrever no arquivo: " + e.getMessage());
+        }
+    }
+
+    public void appendGyr(String linha){
+        try {
+            this.arqCompletoGyr.write(linha.getBytes());
+            this.arqCompletoGyr.flush();
 
             Log.d(TAG, "append: Nova linha inserida");
         }catch (Exception e){
@@ -78,7 +103,8 @@ public class FileManager {
 
     public void close(){
         try {
-            this.arqCompleto.close();
+            this.arqCompletoAcc.close();
+            this.arqCompletoGyr.close();
             Log.d(TAG, "close: Fechando o arquivo");
         }catch (Exception e){
             Log.e(TAG, "ERRO: erro ao fechar o arquivo completo: " + e.getMessage());

@@ -12,6 +12,18 @@
     tools:context="br.edu.ufam.icomp.sophiaproject.ResultActivity"
     android:background="@color/colorBG">
 
+    <Button
+        android:text="@string/errado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonErrado"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@color/white"
+        android:layout_alignRight="@+id/imageView_Result"
+        android:layout_alignEnd="@+id/imageView_Result"
+        android:layout_above="@id/imageView_Result"
+        android:layout_marginBottom="20dp"
+        android:onClick="ClickNo" />
 
     <ImageView
         android:layout_width="180dp"
@@ -21,12 +33,25 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/imageView_Result" />
 
+    <Button
+        android:text="@string/correto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_Result"
+        android:layout_alignStart="@id/imageView_Result"
+        android:id="@+id/buttonCorreto"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@color/white"
+        android:layout_above="@id/imageView_Result"
+        android:layout_marginBottom="20dp"
+        android:onClick="ClickYes" />
+
     <TextView
         android:text=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_above="@id/imageView_Result"
+        android:layout_above="@id/buttonCorreto"
         android:layout_marginBottom="20dp"
         android:id="@+id/textView_Result"
         android:textSize="24sp"
@@ -35,13 +60,27 @@
         android:fontFamily="casual"
         android:textStyle="bold"/>
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_Result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/spinner"
+        android:visibility="visible"
+        android:spinnerMode="dialog"
+        android:prompt="@string/app_name" />
+
     <ImageView
-        android:id="@+id/imageView_Next"
+        android:id="@+id/imageView_go"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/go"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="ClickMenu" />
+        android:visibility="invisible"
+        android:onClick="ClickYes" />
+
+
 </RelativeLayout>

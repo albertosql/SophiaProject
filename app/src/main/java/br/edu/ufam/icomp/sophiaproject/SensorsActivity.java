@@ -22,6 +22,7 @@ import com.google.android.gms.location.ActivityRecognition;
 public class SensorsActivity extends AppCompatActivity implements SensorEventListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private SensorManager mSensorManager;
+    private Sensor mGyroscope;
     private Sensor mAccelerometer;
     public GoogleApiClient mApiClient;
 
@@ -30,10 +31,11 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensors);
 
-        //String device = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
-        //textViewDetail.setText(device);
+        String device = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
+
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        mGyroscope = mSensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 
         mApiClient = new GoogleApiClient.Builder(this)
                 .addApi(ActivityRecognition.API)
@@ -42,6 +44,9 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
                 .build();
 
         mApiClient.connect();
+
+        FileManager.getInstance().appendAcc(device  + "\n");
+        FileManager.getInstance().appendGyr(device  + "\n");
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -54,14 +59,13 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
                 startActivity(intent);
             }
         }, 15000);
-
-        FileManager.getInstance().kill();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+        mSensorManager.registerListener(this, mGyroscope, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override
@@ -77,23 +81,26 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        Float x = event.values[0];
-        Float y = event.values[1];
-        Float z = event.values[2];
 
-         /*
-        Os valores ocilam de -10 a 10.
-        Quanto maior o valor de X mais ele ta caindo para a esquerda - Positivo Esqueda
-        Quanto menor o valor de X mais ele ta caindo para a direita  - Negativo Direita
-        Se o valor de  X for 0 então o celular ta em pé - Nem Direita Nem Esquerda
-        Se o valor de Y for 0 então o cel ta "deitado"
-         Se o valor de Y for negativo então ta de cabeça pra baixo, então quanto menor y mais ele ta inclinando pra ir pra baixo
-        Se o valor de Z for 0 então o dispositivo esta reto na horizontal.
-        Quanto maioro o valor de Z Mais ele esta inclinado para frente
-        Quanto menor o valor de Z Mais ele esta inclinado para traz.
-        */
+        switch (event.sensor.getType()) {
 
-        FileManager.getInstance().append(x+","+y+","+z+"\n");
+            case Sensor.TYPE_ACCELEROMETER:
+
+                Float x = event.values[0];
+                Float y = event.values[1];
+                Float z = event.values[2];
+
+                FileManager.getInstance().appendAcc(x+","+y+","+z+"\n");
+                break;
+
+            case Sensor.TYPE_GYROSCOPE:
+                Float a = event.values[0];
+                Float b = event.values[1];
+                Float c = event.values[2];
+
+                FileManager.getInstance().appendGyr(a+","+b+","+c+"\n");
+                break;
+        }
     }
 
     @Override

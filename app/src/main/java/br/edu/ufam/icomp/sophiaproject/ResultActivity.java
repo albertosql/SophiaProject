@@ -7,6 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.io.IOException;
@@ -17,6 +21,17 @@ public class ResultActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
+
+        String[] array_spinner = new String[5];
+        array_spinner[0]="Parado";
+        array_spinner[1]="Andando";
+        array_spinner[2]="Correndo";
+        array_spinner[3]="Andando de Bicicleta";
+        array_spinner[4]="Andando de carro";
+        Spinner s = (Spinner) findViewById(R.id.spinner);
+        ArrayAdapter adapter = new ArrayAdapter(this,
+                android.R.layout.simple_spinner_item, array_spinner);
+        s.setAdapter(adapter);
 
         int result = ActivityRecognized.status;
         TextView resultado = (TextView)findViewById(R.id.textView_Result);
@@ -66,9 +81,16 @@ public class ResultActivity extends AppCompatActivity {
 
     }
 
-    public void ClickMenu(View view){
+    public void ClickYes(View view){
         Intent intent = new Intent(ResultActivity.this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void ClickNo(View view){
+        ImageView go = (ImageView)findViewById(R.id.imageView_go);
+        Spinner opcaoCorreta = (Spinner)findViewById(R.id.spinner);
+        go.setVisibility(View.VISIBLE);
+        opcaoCorreta.setVisibility(View.VISIBLE);
     }
 
     @Override
