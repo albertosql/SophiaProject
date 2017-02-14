@@ -81,5 +81,13 @@
         android:visibility="invisible"
         android:onClick="ClickYes" />
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF000000"
+        android:padding="10sp"
+        android:id="@+id/textView_opcaoCorreta"/>
+
 
 </RelativeLayout>
