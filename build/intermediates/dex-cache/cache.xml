@@ -2,616 +2,688 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3a05b3852a6aec21ea0a6ea4d284ee69c04c55c4">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.0.0_04c0ef8be19df771d4c8b927bf0a83d196f3ec17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="5fd86107cb2d2fa2d099250066cc664cdcfd476f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-10.0.0_6ae5c5c172fcbfc18681ce33109344a5f83a1ce0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1fabe27d7a7b7ef3fe077c6499cd0a4f08e1c427">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-10.0.0_f8a79e28060e27dda90a5f87409491a30a37ec3b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_c8847d52fdbfc316b7b105bbb86c19730f3214b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ce6e6e59212db0893fc36e5b579cf319a84aade8">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.0_71d49cdefe22bb82153712b72510aab885cfe683.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="75dbc3537bc912d077b3db2f5ac72d5b43644b2c">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.0_2b447450eb1e3e09f2af82a5a174dec0553f9152.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-24.0.0_1a7b266f16166bf8d08fa7a8e3a67e46e1954e3b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8e2fd2b87dc79fc6c8d70fda1247ac6f4a878a28">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-10.0.0_3f8d114d6391c3dfdfc74bf6b6affa61e2aeb84c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_7414faf6ecc2b5925f48fcaa5ee3b3775e678001.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3347c3e7056fabc88bdbd8fdae65ddf2b674d977">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.0_9fe0ae09b6fd4a0b64f83757abb2cad71770adf1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="f36cf060b7f0d881ea6449c254ab8a570a3dcdbe">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-10.0.0_a986a2cc7f8a941f17a90a528aecc5aa16cfe75e.jar" />
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.0_2adfe01f88a5da126b7bc1405ad20a490dd72f2c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="2b410ae1fda134f470276365f4b7f846269e0d23">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.0_afe1bc2fe52f9f90e2e2d2aaea4331383385f618.jar" />
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_af7d0dc4f2f0fa17157c92afae710067c871966b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="b7518f2d3fce2ebec6a0bb8d2cd97eebc9f119df">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-10.0.0_64e11a3515514f2d4ccac658f1710ad71ab44d8b.jar" />
+        sha1="ce6e6e59212db0893fc36e5b579cf319a84aade8">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.0_81adf20452908f84b13d370cf4f981625fde698e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0e2bf5e85132c8bfed05a87b71352918815e0205">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.0.0_b271497fd80b50e9ef2007c6bc1712e99b0f3ee9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_4270d465f1286b2bc16475661cf6aa5a38dbc684.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_3a4d9fdaa68e09669729e7a9966fbf641ce572d7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8bb364f67ec2eba2356872b2b4ddfe8aada2d5ac">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-10.0.0_407560c667a28cfa21570a888cd76528a7335267.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="849da156edbc1201f5cd6e237524187442a62af3">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-10.0.0_e55b18c7d3286b434c2fa2cdbb8bb19e1bd9cdbb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="813f70b551ce5206ad15dfe6e2f5b2d86e08a723">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-10.0.0_41b77b562c55a98328386008b5db1a9db4927199.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ae809d521d9f7da5337a82edd64eea23a76e788d">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-10.0.0_561816f3f13fae77d3bc1f0f87d24d8c79fd667a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="b1c926efda90fbf653889fea922eacc527de8486">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-10.0.0_caa4ff1679793cee373fd3d45dc8ca656202e63c.jar" />
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.0_18c6cb66d6d1081bf498b0bf6e60818e005c74b6\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Alberto\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="147c3e6b95aa3d1e83705b056777ef865d272969">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-10.0.0_2280a11be80ed9e4fa94049730cf1cef06a6bc41.jar" />
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_1a0bbfda9d2456a1b58d228f736ae61f60783fdb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="80338dde5f9d8e20efe2f2a44bc424aefe4eb8f4">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-10.0.0_94518b867ed6a5b4a4a924f3b4d62f1d7c8747d9.jar" />
+        sha1="8bb364f67ec2eba2356872b2b4ddfe8aada2d5ac">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.0_5be794e9d4c9adf017d8b7f10ff8cb90df363e1b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c72296ab3f8a231372223c400f40e7735b526f62.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="985be85104f6d0c5c5e51e7b7e60d8883a98ac64">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.0_1afb76e0317a9d7fc3ff3f3614f0abcfcda4ceab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6b7e0a45e8139272f3fe2a19d4e7b1122c769550">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-10.0.0_f19160e0ba0e35d569f8464b71046d573c4dfe35.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ca730ac2d72056445bf68998cec6b6b2cf4d179e">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-10.0.0_c775009debf4a751b60ec73cb76d50d5d8684ba1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="41e39c7ee84e63ae18df6c6ccb96d196996add4c">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.0_d4698999346361d91a4c7aecaeee08b6e6d88189.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a383a583c346ce8ea5767d77f4fe58e1d8e5f221">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-10.0.0_7544b9e7c5a35850154fb640099fa1906f727c17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fb0229499e600b485a276d4e31161a3ae31c144c">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.0.0_fe1edcc118182dca6c8315f4fac368b3c693f334.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3660967212b89195e628670db181ed86e3307569">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.0_efdae4c7dc5222563cc8bc11344f6c4f5a64aba7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6cc495f5634b8aaae30a37317ba687830da545cf">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-10.0.0_9337208ee074bbf58c166f7a9b58ac768e1be1fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="58cd8dc3bbf63b37f0e107033257467511130e0f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-10.0.0_44733d74b88081877d9c57daa593454bef6e9fc7.jar" />
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.0_bf00c3129bb4ccf9f196eaf4ff0879615c92e6d2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-24.0.0_0670ec231f622b63713a75370364ee7d5f4ee23d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="cf60a8cd2f896314e40b2f1a9788e91e228c3671">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.0_7fd0f1622a48f8b51f551eaca9ba05016a8f9449.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4701f9f79c8a00564912b21b0cb0cec3f51a7d23">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-10.0.0_279631e851b805bdb059c71ba724481b87d39791.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c2376d0ec8dbe85d3446cad64905c0395fbe220e">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-10.0.0_7611ed5b9de032ed61f1a32a85b4f3e12c0c3eb0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8ca4ffc4d90754f1f2438dfc3e94006cfcc6be98">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-10.0.0_91c085cc335fa15f721aa3d41435cac02d3d6b31.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="22031b047b12904b888549ba36c0c30d83b1aea1">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-appindexing-10.0.0_ea56021f4e45725ed2153d6481a9318337b69aa6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="76863814ca24fea5a0510373d15d3ccddebc09f1">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-10.0.0_1f7f5229b44d096aead4f21b44d8083ede7e7a20.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_202a6b9c59dc8732437e8e995de34b8b653199ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="5ac49e5d5aea8772c8018ce2888145f04c5fe7ca">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-10.0.0_d32c4f3fef216483efa9381d9c43784d10b6021d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0d70f7c486d9d65ceabd0039667ae4d53bf0ae7c">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-10.0.0_d39e98eee3832ef48364f3ceed8acb33fc509518.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/okio-1.6.0_19750a844d86b2a2972ad0e217b1a0fb8432e036.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a18773c279bde7e49e09f621aea613685c108c7f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-10.0.0_bc1a5cc6e0c11ce86fb25d9d04cb3bb7c83dc1a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="741f550aea73f64507fc60a799fefd5a2ea2bef5">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-10.0.0_6f46716a1d51e61162ffc7cf7fc21c4cdf163ccf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="932350448ea536c5dfbc45697951f31d34e50f1f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.0.0_bcb426a15daaef1c8b3a04f66fb53627cc0b9920.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_937d71e46031f651336c30fbcd6f384e68051ede.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="777627dcaf0eaacd4212220e8f2d0c63def91774">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-10.0.0_2ef081bfb7e71cf1a720869810a7b50cfe26ae09.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_12f682f173e2db4653e6a8015bf04fe97b16a57e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3861e0294c61bf4bf968a1da1607497345dca283">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-10.0.0_e262670d62e78f0b3c0c3cedea7daf714578f73e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a61005619e43f203768ff3f224137def6f029e50">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.0_85c8a2bcb2301cfefb8620664f5b1069f3ecb10f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_63fa2453b5960a6f14e75d12c3841b485ba97b46.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2e61c07206f0568b34939e2dc0e2bc75251648dc">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-instantapps-10.0.0_6d70fbee8710c006fa29d64a7ac23fad20314ff2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_ec587bf95fc680cce92c5b5b35adb9e0a6da47d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_9a5ca244af5e5fc0dd195f9c6a43621ecb0ac4b6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="73fe8ab7f76e41d0cabbc4fa3399557de52efb2d">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.0.0_8157c86257820beb95b68444b04715f7b9c6b105.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="543835521cf4f867223d9f2a4b19ce32f95b0573">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-awareness-10.0.0_94c02ec867ed8fedbe648da96c3f6571db2ce319.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_290d86640ad036ac5ad3048a7b61da79250fb089.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_ea783d55518cfddc00651e6442ff16c21e95e68a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="444a220fadbdf260b3aa47c6e858c5d1e645170f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.0_bd39c1836d33b1e80905016c52823094ff766397.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_d058ded3a51f263284a955da6cbf859e1cbf0c5e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e85244fad94e381cea15b99f51899fd1ed8f7f2e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c7ed3fd9d5a9687980dac6c504abd91ad3dfa238">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.0_f127facf15e2154c1f7f6ad3ac07db73a2913518.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ddfa80ca49f1334afea1f9aa93148be73f73cd0f">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-10.0.0_3cd907062aae6726dbcd1a7e5775b115fac28382.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_add05f296ffae8ad43e352b27cb55e01b95736b4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8f20ff2dadb9ff9bef1a08d0e23a7e5e25b8d24a.jar" />
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9ed1b9db45071afc620156f3818304661b36e6ed\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75dbc3537bc912d077b3db2f5ac72d5b43644b2c">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.0_08bc972953bbc4d35809314c7bd3d84e65b0822c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_1e8ede5f09f8cb117ff15c97f5a8b05360851596\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c2376d0ec8dbe85d3446cad64905c0395fbe220e">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.0_76dbb43c2838f9d149973b6c43ff81e1d1e6b2c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.19.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.19.0_36d75626cef1f9683c6c9f031eafb7181a109ae1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7628835a54fc65321ab5aac202558f49b167e7f4">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5f9e86025b90fe501cef779eb4960ea14c0e03f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b410ae1fda134f470276365f4b7f846269e0d23">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.0_5442a894dc805c029d806d55003c222566963787\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="76863814ca24fea5a0510373d15d3ccddebc09f1">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.0_0609d2e65f85b91246a1acbaf17997adea7c761c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="985be85104f6d0c5c5e51e7b7e60d8883a98ac64">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.0_fbe089659fa8044453ac8a69dd1fd2d547c712be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4701f9f79c8a00564912b21b0cb0cec3f51a7d23">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.0_25e4e16de5a8674ffeb192ebad0c75d51c1247f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alberto\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_e42a8808564a056a3d533da01df124c2c020f767\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf60a8cd2f896314e40b2f1a9788e91e228c3671">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.0_d78f5bf65022551b505d7a287de07f209dd5de45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d70f7c486d9d65ceabd0039667ae4d53bf0ae7c">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.0_89ba192acba036e15bf145fe82c777932bf10d8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="41e39c7ee84e63ae18df6c6ccb96d196996add4c">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.0_0d79656a64a446b239c218b51c1f8f65797c822d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ddfa80ca49f1334afea1f9aa93148be73f73cd0f">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.0_88b0637d8c88321ea04832c05d8464f705a5a7a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1fabe27d7a7b7ef3fe077c6499cd0a4f08e1c427">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.0_b23f8fdf54bff58e6f8c3842acb8f3e7e2b04677\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3347c3e7056fabc88bdbd8fdae65ddf2b674d977">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.0_8d56757691f9458414f380c0a059b68942d669d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_cdea90fdc3460d5d8ab6707d58dfdb2286629907\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a383a583c346ce8ea5767d77f4fe58e1d8e5f221">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.0_7125485e6c2feae57fff4edd47ac8d2bae777926\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a61005619e43f203768ff3f224137def6f029e50">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.0_081e07f11d583f4157df7b1fee9acca8e8db4294\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7ed3fd9d5a9687980dac6c504abd91ad3dfa238">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.0_8619a942f07207200b159a888486e61e3fdccf8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8e2fd2b87dc79fc6c8d70fda1247ac6f4a878a28">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.0_20c201006711fba220b74fdb5d2aeafd294f5a1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="22031b047b12904b888549ba36c0c30d83b1aea1">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.0_4aa664e5adb53243721fb4fbf3a33b1203826719\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca730ac2d72056445bf68998cec6b6b2cf4d179e">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.0_b59053c9dc02b064454e04908ba67f0de5763321\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_863601a64a928a2a168bb894cb05a8cccb11b08b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_7f9f26735f933ac13b60ca5e163140046ff262f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6cc495f5634b8aaae30a37317ba687830da545cf">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.0_4d94c9cba93779de22603d8cc6c6772d7a7f407d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="80338dde5f9d8e20efe2f2a44bc424aefe4eb8f4">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.0_be78a11968bfb7eca5715ac192007b7214fc9dc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alberto\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_0614856a0f36990f7b8990b8f1c3a1ccbb9d805b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="932350448ea536c5dfbc45697951f31d34e50f1f">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.0_970652af39a27db62dc1f4f63b858d511674d931\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_7f92bb7eeb967945e0165a1fe3031cd4f1e0c928\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_5d212b6974f9ad94094b417864dcfc7cd0c0740d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="147c3e6b95aa3d1e83705b056777ef865d272969">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.0_1c25c0835531927218e49e1f2597ef2512043226\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5ac49e5d5aea8772c8018ce2888145f04c5fe7ca">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.0_bd23857df02416eebee57f33065ec70ae598f686\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5fd86107cb2d2fa2d099250066cc664cdcfd476f">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.0_5c5c15fafe7cecc6eab2ba5fa34d7d0a416279a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_8ea5820c39040d8d25c4bff001f18b26a21274c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="73fe8ab7f76e41d0cabbc4fa3399557de52efb2d">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.0_31bcc61ade7490de474ffd7bbd20b94072a4226e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_db60ce2d53e4b72f7b3b9d8738ce10f7d10fb62b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="777627dcaf0eaacd4212220e8f2d0c63def91774">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.0_cad60632ff59ee35786e7e1f54cb58f49a8ab144\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="543835521cf4f867223d9f2a4b19ce32f95b0573">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.0_b28fbd1034aa969a3760d5eaab15393d5b4b5f90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_1fc2648023677de59ceb3fb61ea1f63312c9299d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_f7331a11f340e0f85e570524abe003692f6bd0bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_513d48449b503caa82178386f9c52183216d23a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b7518f2d3fce2ebec6a0bb8d2cd97eebc9f119df">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.0_e1c19ed1a0f787a4c3e9e868acd1f341282f0a67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alberto\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_2a53682f43a6b65a91010bffd33c92eb4bed30e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_eb9dccbf782d4b10061faf89e1c3ab75468a6729\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="444a220fadbdf260b3aa47c6e858c5d1e645170f">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.0_e799355f7feaf8b6438891c3b2b8736bcc513ac4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_3dfcc6423c693bca5a005d2e73af1c3bfb7ce0c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_cfbacf3a67ffe2a8a908460b0da618e09f4bf289\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5054e73943bfd7a9a509f3131dd823edb780ab28">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fc51c92ad57b36b797fde98bf60ca4b97aeeb629\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e631d7844ebf49baf5acd6747521df87994715f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0e2bf5e85132c8bfed05a87b71352918815e0205">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.0_87260b2f5ae77663e0313d2de505dfdd52684d43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3861e0294c61bf4bf968a1da1607497345dca283">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.0_3bae2258aaeffcf08e27403888a84fbb4eba7564\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c71cac1969d0c4d8039c1ad46031b624042b9dda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3a05b3852a6aec21ea0a6ea4d284ee69c04c55c4">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.0_810f5f463f2cdaf072be1376a5c37902a8d30f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a18773c279bde7e49e09f621aea613685c108c7f">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.0_3d8dfaf846891d08cbe6780ddcd135d036a05564\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6b7e0a45e8139272f3fe2a19d4e7b1122c769550">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.0_e426b984c4715dd6e2deba2593e267e784d648e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="813f70b551ce5206ad15dfe6e2f5b2d86e08a723">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.0_b9d9aa57e096c02a41814d160e477b01065de72f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ae809d521d9f7da5337a82edd64eea23a76e788d">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.0_4dc0ed06d2a8bb542fa726f5598d69c08e7030b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="73a2c740a76aa4ba46168ed8bcdee1966e48a589">
-        <dex dex="/home/fabricio/AndroidStudioProjects/SophiaProject/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-10.0.0_5f8f5713b4c5220d91e1fb345d3796d212602ec8.jar" />
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.0_54bdecdfc3b8043f054b71e31a462681b6cfd246\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_71f061a5a67dafa401003871df5b3dc00b1d0a29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ca4ffc4d90754f1f2438dfc3e94006cfcc6be98">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.0_3b1c6ea46b6e4f2db9496a6c8e9383782d580d6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fb0229499e600b485a276d4e31161a3ae31c144c">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.0_6cdb9cf60d8c19bc79c5cff54f906100aaad61fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3660967212b89195e628670db181ed86e3307569">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.0_d8c13323dd2a399b45380199e66361680e478371\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alberto\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_72321ba809adb30a5b5c15923ab626acdb2fb892\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2e61c07206f0568b34939e2dc0e2bc75251648dc">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.0_2bd6bce47049c27d8950f7953dcda3728018cdc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="849da156edbc1201f5cd6e237524187442a62af3">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.0_a5ff9bbeb7deab1751167ff058fa6d91edb78eaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_8ab270706715ea492615577145359ad6c203e6f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Apps\SophiaProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="741f550aea73f64507fc60a799fefd5a2ea2bef5">
+        <dex dex="D:\Apps\SophiaProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.0_2556e35af3cb62af4ab481c66804afa401263073\classes.dex" />
     </item>
 
 </items>

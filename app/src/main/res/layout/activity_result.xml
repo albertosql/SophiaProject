@@ -22,7 +22,7 @@
         android:layout_alignRight="@+id/imageView_Result"
         android:layout_alignEnd="@+id/imageView_Result"
         android:layout_above="@id/imageView_Result"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:onClick="ClickNo" />
 
     <ImageView
@@ -43,7 +43,7 @@
         android:backgroundTint="@android:color/holo_green_dark"
         android:textColor="@color/white"
         android:layout_above="@id/imageView_Result"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:onClick="ClickYes" />
 
     <TextView
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_above="@id/buttonCorreto"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:id="@+id/textView_Result"
         android:textSize="24sp"
         android:textColor="@color/white"
@@ -68,8 +68,7 @@
         android:layout_marginTop="16dp"
         android:id="@+id/spinner"
         android:visibility="invisible"
-        android:spinnerMode="dialog"
-        android:prompt="@string/app_name" />
+        android:spinnerMode="dialog"/>
 
     <ImageView
         android:id="@+id/imageView_go"
