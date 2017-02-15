@@ -84,7 +84,7 @@ public class FileManager {
             this.arqCompletoAcc.write(linha.getBytes());
             this.arqCompletoAcc.flush();
 
-            Log.d(TAG, "append: Nova linha inserida");
+            Log.d(TAG, "append: Nova linha ACC inserida");
         }catch (Exception e){
             Log.d(TAG, "ERRO: erro ao escrever no arquivo: " + e.getMessage());
         }
@@ -95,7 +95,7 @@ public class FileManager {
             this.arqCompletoGyr.write(linha.getBytes());
             this.arqCompletoGyr.flush();
 
-            Log.d(TAG, "append: Nova linha inserida");
+            Log.d(TAG, "append: Nova linha Gyr inserida");
         }catch (Exception e){
             Log.d(TAG, "ERRO: erro ao escrever no arquivo: " + e.getMessage());
         }
@@ -105,6 +105,8 @@ public class FileManager {
         try {
             this.arqCompletoAcc.close();
             this.arqCompletoGyr.close();
+            //this.arqCompletoIn.close();
+            //this.arqCompletoInGyr.close();
             Log.d(TAG, "close: Fechando o arquivo");
         }catch (Exception e){
             Log.e(TAG, "ERRO: erro ao fechar o arquivo completo: " + e.getMessage());
@@ -114,13 +116,15 @@ public class FileManager {
     //Envia os sinais gravados no arquivo para o servidor
     public void getSignals(String idUser, String atividade) throws IOException {
         try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(arqCompletoIn));
+            BufferedReader acc = new BufferedReader(new InputStreamReader(arqCompletoIn));
+            BufferedReader gyr = new BufferedReader(new InputStreamReader(arqCompletoInGyr));
             String strLine;
             String json = "{\"id_user\":"+idUser+",\"time\":\"2016-12-14 23:49:00\", \"activity\":\""+atividade+"\",\"signal\":[";
             //Lendo linha por linha
-            while ((strLine = br.readLine()) != null)   {
+            while ((strLine = acc.readLine()) != null)   {
                 String[] eixos = strLine.split(",");
-                json += "{\"ax\":\""+eixos[0]+"\",\"ay\":\""+eixos[1]+"\",\"az\":\""+eixos[2]+"\"},";
+                if(eixos.length == 3)
+                    json += "{\"ax\":\""+eixos[0]+"\",\"ay\":\""+eixos[1]+"\",\"az\":\""+eixos[2]+"\"},";
             }
             json = json.substring(0,json.length()-1);
             json +=  "]}";

@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         idFacebook = bundle.getString("id");
         email = bundle.getString("email");
         idade = getAge(ano, mes, dia);
-        model_phone = android.os.Build.MODEL;
+        model_phone = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
     }
 
     public void ClickCadastro(View v){

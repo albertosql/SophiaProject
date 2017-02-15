@@ -22,6 +22,8 @@ import java.util.ArrayList;
 public class ResultActivity extends AppCompatActivity {
 
     private AlertDialog alerta;
+    private String atividade;
+    private String idUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +45,6 @@ public class ResultActivity extends AppCompatActivity {
         Button correto = (Button)findViewById(R.id.buttonCorreto);
         Button errado = (Button)findViewById(R.id.buttonErrado);
         Spinner opcaoCorreta = (Spinner)findViewById(R.id.spinner);
-        String atividade;
-        String idUser;
 
         /**
          * 0 para caso NÃO reconheça
@@ -87,7 +87,7 @@ public class ResultActivity extends AppCompatActivity {
             errado.setText("Errado");
         }else{
             resultado.setText(R.string.result0);
-            atividade = "NENHUMA";
+            atividade = "Nenhuma";
             correto.setClickable(false);
             errado.setVisibility(View.VISIBLE);
             errado.setText("Corrigir");
@@ -95,21 +95,11 @@ public class ResultActivity extends AppCompatActivity {
             //opcaoCorreta.setVisibility(View.VISIBLE);
         }
 
-        //if (result != 0 ) {
-            try {
-                SharedPreferences sharedPref = getSharedPreferences("USER_DATA", Context.MODE_PRIVATE);
-                idUser = sharedPref.getString("idUser", "");
-                FileManager.getInstance().getSignals(idUser, atividade);
-            } catch (IOException e) {
-                Log.d("ERROR: ", "Erro ao Salvar Sinais.");
-            }
-        //}
-
         Log.e("Status: ", "" + result);
-
     }
 
     public void ClickYes(View view){
+        enviarServidor();
         Intent intent = new Intent(ResultActivity.this, MainActivity.class);
         startActivity(intent);
     }
@@ -125,10 +115,10 @@ public class ResultActivity extends AppCompatActivity {
 
     private void exemplo_lista_single() {
         //Lista de itens
-        ArrayList<String> itens = new ArrayList<String>();
+        final ArrayList<String> itens = new ArrayList<String>();
         itens.add("Parado");
         itens.add("Andando");
-        itens.add("Cprrendo");
+        itens.add("Correndo");
         itens.add("Andando de Bicicleta");
         itens.add("Andando de Carro");
 
@@ -141,7 +131,9 @@ public class ResultActivity extends AppCompatActivity {
         builder.setSingleChoiceItems(adapter, 0, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface arg0, int arg1) {
                 //Toast.makeText(ResultActivity.this, "posição selecionada=" + arg1, Toast.LENGTH_SHORT).show();
+                atividade = itens.get(arg1);
                 alerta.dismiss();
+                enviarServidor();
                 Intent intent = new Intent(ResultActivity.this, MainActivity.class);
                 startActivity(intent);
             }
@@ -151,4 +143,16 @@ public class ResultActivity extends AppCompatActivity {
         alerta.show();
     }
 
+    public void enviarServidor(){
+
+        //if (result != 0 ) {
+        try {
+            SharedPreferences sharedPref = getSharedPreferences("USER_DATA", Context.MODE_PRIVATE);
+            idUser = sharedPref.getString("idUser", "");
+            FileManager.getInstance().getSignals(idUser, atividade);
+        } catch (IOException e) {
+            Log.d("ERROR: ", "Erro ao Salvar Sinais.");
+        }
+        //}
+    }
 }
