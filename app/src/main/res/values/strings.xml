@@ -26,6 +26,9 @@
     <string name="correto">Correto</string>
     <string name="errado">Errado</string>
 
+    <string name="sucess">ACERTEI! EU SOU DEMAIS!</string>
+    <string name="fail">Errei! Isto é constrangedor :(</string>
+
     <!-- REGISTRO -->
     <string name="register1">ID do Facebook</string>
     <string name="register2">Idade</string>

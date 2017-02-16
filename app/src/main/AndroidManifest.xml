@@ -17,7 +17,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".FacebookLoginActivity" >
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,11 +25,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".PlayActivity" />
-        <activity android:name=".TutorialActivity" />
+        <activity android:name=".TutorialActivity" />FacebookLoginActivity
         <activity android:name=".SensorsActivity" />
         <service android:name=".ActivityRecognized" />
         <activity android:name=".ResultActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".FacebookLoginActivity" />
         <activity android:name=".LoginActivity"></activity>
     </application>
 

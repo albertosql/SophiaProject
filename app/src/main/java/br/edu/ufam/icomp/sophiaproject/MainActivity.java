@@ -9,18 +9,29 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
+    int status = ActivityRecognized.status;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (ResultActivity.frase == R.string.sucess){
+            Toast.makeText(getApplicationContext(), R.string.sucess, Toast.LENGTH_LONG).show();
+        }else if (ResultActivity.frase == R.string.fail){
+            Toast.makeText(getApplicationContext(), R.string.fail, Toast.LENGTH_LONG).show();
+        }
     }
 
     public void ClickPlay(View view) throws InterruptedException {
+        FileManager.kill();
+        ActivityRecognized.status = 0;
+        ResultActivity.frase = 0;
         Intent intent = new Intent(MainActivity.this, PlayActivity.class);
         startActivity(intent);
     }
@@ -32,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }

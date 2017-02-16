@@ -12,19 +12,6 @@
     tools:context="br.edu.ufam.icomp.sophiaproject.ResultActivity"
     android:background="@color/colorBG">
 
-    <Button
-        android:text="@string/errado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonErrado"
-        android:backgroundTint="@android:color/holo_red_dark"
-        android:textColor="@color/white"
-        android:layout_alignRight="@+id/imageView_Result"
-        android:layout_alignEnd="@+id/imageView_Result"
-        android:layout_above="@id/imageView_Result"
-        android:layout_marginBottom="5dp"
-        android:onClick="ClickNo" />
-
     <ImageView
         android:layout_width="180dp"
         android:layout_height="180dp"
@@ -33,26 +20,13 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/imageView_Result" />
 
-    <Button
-        android:text="@string/correto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView_Result"
-        android:layout_alignStart="@id/imageView_Result"
-        android:id="@+id/buttonCorreto"
-        android:backgroundTint="@android:color/holo_green_dark"
-        android:textColor="@color/white"
-        android:layout_above="@id/imageView_Result"
-        android:layout_marginBottom="5dp"
-        android:onClick="ClickYes" />
-
     <TextView
         android:text=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_above="@id/buttonCorreto"
-        android:layout_marginBottom="5dp"
+        android:layout_above="@id/imageView_Result"
+        android:layout_marginBottom="20dp"
         android:id="@+id/textView_Result"
         android:textSize="24sp"
         android:textColor="@color/white"
@@ -60,34 +34,31 @@
         android:fontFamily="casual"
         android:textStyle="bold"/>
 
-    <Spinner
+    <Button
+        android:text="@string/correto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/buttonCorreto"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@color/white"
+        android:onClick="ClickYes"
         android:layout_below="@+id/imageView_Result"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:id="@+id/spinner"
-        android:visibility="invisible"
-        android:spinnerMode="dialog"/>
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/imageView_Result"
+        android:layout_alignStart="@+id/imageView_Result" />
 
-    <ImageView
-        android:id="@+id/imageView_go"
+    <Button
+        android:text="@string/errado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/go"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:visibility="invisible"
-        android:onClick="ClickYes" />
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#FF000000"
-        android:padding="10sp"
-        android:id="@+id/textView_opcaoCorreta"/>
+        android:id="@+id/buttonErrado"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@color/white"
+        android:onClick="ClickNo"
+        android:layout_below="@+id/imageView_Result"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/imageView_Result"
+        android:layout_alignEnd="@+id/imageView_Result" />
 
 
 </RelativeLayout>

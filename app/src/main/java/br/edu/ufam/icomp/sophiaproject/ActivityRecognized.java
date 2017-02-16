@@ -2,18 +2,18 @@ package br.edu.ufam.icomp.sophiaproject;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
 import android.util.Log;
 
 import com.google.android.gms.location.ActivityRecognitionResult;
 import com.google.android.gms.location.DetectedActivity;
 
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.List;
 
 public class ActivityRecognized extends IntentService {
     private static final String TAG = ActivityRecognized.class.getName();
-    private int PRECISAO = 65;
+    private int PRECISAO = 75;
     public static int status;
 
     public ActivityRecognized() {
@@ -37,8 +37,9 @@ public class ActivityRecognized extends IntentService {
             switch( activity.getType() ) {
                 case DetectedActivity.IN_VEHICLE: {
                     Log.e( TAG, "VEICULO: " + activity.getConfidence() );
-                    if( activity.getConfidence() >= PRECISAO ) {
+                    if( activity.getConfidence() >= PRECISAO) {
                         status = 5;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
@@ -46,6 +47,7 @@ public class ActivityRecognized extends IntentService {
                     Log.e(TAG, "BIKE: " + activity.getConfidence() );
                     if( activity.getConfidence() >= PRECISAO ) {
                         status = 4;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
@@ -53,6 +55,7 @@ public class ActivityRecognized extends IntentService {
                     Log.e( TAG, "FOOT: " + activity.getConfidence() );
                     if( activity.getConfidence() >= PRECISAO ) {
                         status = 2;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
@@ -60,6 +63,7 @@ public class ActivityRecognized extends IntentService {
                     Log.e( TAG, "Running: " + activity.getConfidence() );
                     if( activity.getConfidence() >= PRECISAO) {
                         status = 3;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
@@ -67,6 +71,7 @@ public class ActivityRecognized extends IntentService {
                     Log.e( TAG, "PARADO: " + activity.getConfidence() );
                     if( activity.getConfidence() >= PRECISAO ) {
                         status = 1;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
@@ -78,6 +83,7 @@ public class ActivityRecognized extends IntentService {
                     Log.e(TAG, "WALKING: " + activity.getConfidence() );
                     if( activity.getConfidence() >= PRECISAO ) {
                         status = 2;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
@@ -85,12 +91,12 @@ public class ActivityRecognized extends IntentService {
                     Log.e( TAG, "NAO SEI: " + activity.getConfidence() );
                     if( activity.getConfidence() >= PRECISAO ) {
                         status = 0;
+                        EventBus.getDefault().post(new MyEvent(""));
                     }
                     break;
                 }
             }
         }
     }
-
 
 }

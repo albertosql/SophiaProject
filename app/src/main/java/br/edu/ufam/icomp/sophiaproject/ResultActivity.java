@@ -24,27 +24,18 @@ public class ResultActivity extends AppCompatActivity {
     private AlertDialog alerta;
     private String atividade;
     private String idUser;
+    public static int frase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        String[] array_spinner = new String[5];
-        array_spinner[0]="Parado";
-        array_spinner[1]="Andando";
-        array_spinner[2]="Correndo";
-        array_spinner[3]="Andando de Bicicleta";
-        array_spinner[4]="Andando de carro";
-        Spinner s = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, array_spinner);
-        s.setAdapter(adapter);
 
         int result = ActivityRecognized.status;
         TextView resultado = (TextView)findViewById(R.id.textView_Result);
         Button correto = (Button)findViewById(R.id.buttonCorreto);
         Button errado = (Button)findViewById(R.id.buttonErrado);
-        Spinner opcaoCorreta = (Spinner)findViewById(R.id.spinner);
 
         /**
          * 0 para caso NÃO reconheça
@@ -99,7 +90,8 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     public void ClickYes(View view){
-        enviarServidor();
+        //enviarServidor();
+        frase = R.string.sucess;
         Intent intent = new Intent(ResultActivity.this, MainActivity.class);
         startActivity(intent);
     }
@@ -133,7 +125,8 @@ public class ResultActivity extends AppCompatActivity {
                 //Toast.makeText(ResultActivity.this, "posição selecionada=" + arg1, Toast.LENGTH_SHORT).show();
                 atividade = itens.get(arg1);
                 alerta.dismiss();
-                enviarServidor();
+                //enviarServidor();
+                frase = R.string.fail;
                 Intent intent = new Intent(ResultActivity.this, MainActivity.class);
                 startActivity(intent);
             }

@@ -1,7 +1,6 @@
 package br.edu.ufam.icomp.sophiaproject;
 
-import android.content.Context;
-import android.content.SharedPreferences;
+
 import android.os.Environment;
 import android.util.Log;
 
@@ -11,10 +10,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-/**
- * Created by Betinho on 02/02/2017.
- */
 
 public class FileManager {
 
@@ -138,9 +133,15 @@ public class FileManager {
         this.arqCompletoIn.close();
     }
 
-    public void kill(){
+    public static void kill(){
         File f = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "Sophia");
-        f.delete();
-        Log.e("Deletou", "Deletou");
+        if (f.isDirectory())
+        {
+            String[] children = f.list();
+            for (int i = 0; i < children.length; i++)
+            {
+                new File(f, children[i]).delete();
+            }
+        }
     }
 }

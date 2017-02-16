@@ -14,10 +14,17 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.games.event.Event;
 import com.google.android.gms.location.ActivityRecognition;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 public class SensorsActivity extends AppCompatActivity implements SensorEventListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
@@ -31,7 +38,7 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensors);
 
-        //String device = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
+        String device = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -45,25 +52,29 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
 
         mApiClient.connect();
 
-        //FileManager.getInstance().appendAcc(device  + "\n");
-        //FileManager.getInstance().appendGyr(device  + "\n");
+        FileManager.getInstance().appendAcc(device  + "\n");
+        FileManager.getInstance().appendGyr(device  + "\n");
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Vibrator rr = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                long milliseconds = 2500;
-                rr.vibrate(milliseconds);
+    }
 
-                Intent intent = new Intent(SensorsActivity.this, ResultActivity.class);
-                startActivity(intent);
-            }
-        }, 15000);
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEvent(MyEvent event) {
+        kill();
+
+        Vibrator rr = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        long milliseconds = 2500;
+        rr.vibrate(milliseconds);
+
+        Intent intent = new Intent(this, ResultActivity.class);
+        startActivity(intent);
+
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        EventBus.getDefault().register(this);
         mSensorManager.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         mSensorManager.registerListener(this, mGyroscope, SensorManager.SENSOR_DELAY_NORMAL);
     }
@@ -72,6 +83,7 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
     protected void onPause() {
         super.onPause();
         mSensorManager.unregisterListener((SensorEventListener) this);
+        EventBus.getDefault().unregister(this);
         FileManager.getInstance().close();
     }
 
