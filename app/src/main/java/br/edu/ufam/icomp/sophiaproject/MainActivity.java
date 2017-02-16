@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ClickTutorial(View view){
+        ResultActivity.frase = 0;
         Intent intent = new Intent(MainActivity.this, TutorialActivity.class);
         startActivity(intent);
     }

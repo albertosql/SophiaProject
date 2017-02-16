@@ -83,7 +83,6 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
         super.onPause();
         mSensorManager.unregisterListener((SensorEventListener) this);
         EventBus.getDefault().unregister(this);
-        FileManager.getInstance().close();
     }
 
     @Override

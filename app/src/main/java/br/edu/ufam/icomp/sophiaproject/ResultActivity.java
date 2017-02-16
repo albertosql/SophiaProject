@@ -85,7 +85,7 @@ public class ResultActivity extends AppCompatActivity {
 
             //opcaoCorreta.setVisibility(View.VISIBLE);
         }
-
+        FileManager.getInstance().close();
         Log.e("Status: ", "" + result);
     }
 

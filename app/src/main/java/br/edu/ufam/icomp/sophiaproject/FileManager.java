@@ -23,9 +23,9 @@ public class FileManager {
     }
 
     public static FileManager getInstance(){
-        if (instance == null){
-            instance = new FileManager();
-        }
+
+        instance = new FileManager();
+
         return instance;
     }
 
