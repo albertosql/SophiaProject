@@ -13,41 +13,6 @@
 
 
     <TextView
-        android:text=""
-        android:fontFamily="casual"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textId" />
-
-    <TextView
-        android:text=""
-        android:fontFamily="casual"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textNome" />
-
-    <TextView
-        android:text=""
-        android:fontFamily="casual"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textEmail" />
-
-    <TextView
-        android:text=""
-        android:fontFamily="casual"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textGender" />
-
-    <TextView
-        android:text=""
-        android:fontFamily="casual"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textBirthday" />
-
-    <TextView
         android:text="Peso:"
         android:fontFamily="casual"
         android:layout_width="match_parent"
@@ -77,7 +42,7 @@
 
     <Button
         android:text="Entrar"
-        android:layout_width="wrap_content"
+        android:layout_width="158dp"
         android:layout_height="wrap_content"
         android:id="@+id/btnCadastro"
         android:onClick="ClickCadastro"/>

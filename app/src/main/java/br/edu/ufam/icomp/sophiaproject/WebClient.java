@@ -4,6 +4,7 @@ package br.edu.ufam.icomp.sophiaproject;
 import android.util.Log;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
@@ -19,7 +20,10 @@ public class WebClient implements Runnable{
     static String idUser;
     private String json;
     private String url;
-    private OkHttpClient client = new OkHttpClient();
+    private OkHttpClient client = new OkHttpClient.Builder()
+            .connectTimeout(100, TimeUnit.SECONDS)
+            .writeTimeout(10, TimeUnit.SECONDS)
+            .readTimeout(20, TimeUnit.SECONDS).build();
     private MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
     private Response response;
 
@@ -30,20 +34,20 @@ public class WebClient implements Runnable{
 
     @Override
     public void run() {
+        Log.d("WEBCLIENT", "INFO: INCIANDO O ENVIO PARA O SERVIDOR!");
         RequestBody body = RequestBody.create(mediaType, json);
-        Request.Builder builder = new Request.Builder();
-        builder.url(url);
-        builder.post(body);
 
-        Request request = builder.build();
-        response = null;
+        Request request = new Request.Builder()
+                            .url(url)
+                            .post(body)
+                            .build();
 
         try {
             response = client.newCall(request).execute();
             idUser = response.body().string();
-            Log.d("WEBCLIENT:", "INFO: Sinais enviados com Sucesso");
+            Log.d("WEBCLIENT", "INFO: SINAIS ENVIADOS AO SERVIDOR COM SUCESSO!");
         } catch (IOException e) {
-            Log.d("WEBCLIENT:", "ERROR: Error ao Realizar REQUEST ou RESPONSE");
+            Log.d("WEBCLIENT", "ERROR: ERRO AO OBTER REQUEST/RESPONSE");
         }
     }
 

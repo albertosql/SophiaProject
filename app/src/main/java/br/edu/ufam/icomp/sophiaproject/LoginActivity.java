@@ -55,9 +55,9 @@ public class LoginActivity extends AppCompatActivity {
         webclient.start();
         try {
             webclient.join();
-            Log.d("Register Activity", "ClickRegistrar: Dados de usuário enviado com sucesso.");
+            Log.d("REGISTER ACTIVITY", "ClickRegistrar: Dados de usuário enviado com sucesso.");
         } catch (InterruptedException e) {
-            Log.d("Register Activity", "ClickRegistrar: Erro ao Enviar dados de usuário.");
+            Log.d("REGISTER ACTIVITY", "ClickRegistrar: Erro ao Enviar dados de usuário.");
         }
         String idUser = WebClient.idUser;
         idUser = idUser.split(":")[1];

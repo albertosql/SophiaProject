@@ -113,13 +113,26 @@ public class FileManager {
         try {
             BufferedReader acc = new BufferedReader(new InputStreamReader(arqCompletoIn));
             BufferedReader gyr = new BufferedReader(new InputStreamReader(arqCompletoInGyr));
-            String strLine;
+
+            String strLineAcc = null;
+            String strLineGyr = null;
+
             String json = "{\"id_user\":"+idUser+",\"time\":\"2016-12-14 23:49:00\", \"activity\":\""+atividade+"\",\"signal\":[";
             //Lendo linha por linha
-            while ((strLine = acc.readLine()) != null)   {
-                String[] eixos = strLine.split(",");
-                if(eixos.length == 3)
-                    json += "{\"ax\":\""+eixos[0]+"\",\"ay\":\""+eixos[1]+"\",\"az\":\""+eixos[2]+"\"},";
+            while ((strLineAcc = acc.readLine()) != null )  {
+                String[] eixosAcc = strLineAcc.split(",");
+                if((strLineGyr = gyr.readLine()) != null){
+                    String[] eixosGyr = strLineGyr.split(",");
+                    if (eixosGyr.length == 3) {
+                        json += "{\"ax\":\"" + eixosAcc[0] + "\",\"ay\":\"" + eixosAcc[1] + "\",\"az\":\"" + eixosAcc[2] + "\", \"gx\":\"" + eixosGyr[0] + "\"," +
+                                "\"gy\":\"" + eixosGyr[1] + "\", \"gz\":\"" + eixosGyr[2] + "\"},";
+                    }else {
+                        json += "{\"ax\":\""+eixosAcc[0]+"\",\"ay\":\""+eixosAcc[1]+"\",\"az\":\""+eixosAcc[2]+"\"},";
+                    }
+
+                }else{
+                    json += "{\"ax\":\""+eixosAcc[0]+"\",\"ay\":\""+eixosAcc[1]+"\",\"az\":\""+eixosAcc[2]+"\"},";
+                }
             }
             json = json.substring(0,json.length()-1);
             json +=  "]}";
@@ -132,6 +145,7 @@ public class FileManager {
         }
         this.arqCompletoIn.close();
     }
+
 
     public static void kill(){
         File f = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS), "Sophia");

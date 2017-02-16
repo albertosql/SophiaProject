@@ -1,6 +1,8 @@
 package br.edu.ufam.icomp.sophiaproject;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
@@ -69,12 +71,18 @@ public class FacebookLoginActivity extends AppCompatActivity {
                                 Log.v("FacebookLoginActivity", response.toString());
                                 // Application code
                                 try {
-                                    Intent intent = new Intent(FacebookLoginActivity.this, LoginActivity.class);
-                                    intent.putExtra("id", object.getString("id"));
-                                    intent.putExtra("nome", object.getString("name"));
-                                    intent.putExtra("email", object.getString("email"));
-                                    intent.putExtra("gender", object.getString("gender"));
-                                    //intent.putExtra("birthday", object.getString("birthday"));
+                                    Intent intent;
+                                    if(!isSetDataUser()) {
+                                        intent = new Intent(FacebookLoginActivity.this, LoginActivity.class);
+                                        intent.putExtra("id", object.getString("id"));
+                                        intent.putExtra("nome", object.getString("name"));
+                                        intent.putExtra("email", object.getString("email"));
+                                        intent.putExtra("gender", object.getString("gender"));
+                                        Log.d("FACEBOOK ACTIVITY", "INFO: VALORES DE PESO E ALTURA NÃO ATRIBUIDOS!");
+                                    }else{
+                                        intent = new Intent(FacebookLoginActivity.this, MainActivity.class);
+                                        Log.d("FACEBOOK ACTIVITY", "INFO: VALORES DE PESO E ALTURA JÁ ATRIBUIDOS!");
+                                    }
                                     startActivity(intent);
                                     finish();
                                 } catch (JSONException e) {
@@ -107,5 +115,17 @@ public class FacebookLoginActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
+
+    private Boolean isSetDataUser(){
+        SharedPreferences sharedPref = getSharedPreferences("USER_DATA", Context.MODE_PRIVATE);
+        String height = sharedPref.getString("height", "");
+        String weight = sharedPref.getString("weight", "");
+
+        if(height == "" || weight == "") {
+            return false;
+        }else {
+            return true;
+        }
     }
 }

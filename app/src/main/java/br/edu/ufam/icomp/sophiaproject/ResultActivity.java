@@ -90,7 +90,7 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     public void ClickYes(View view){
-        //enviarServidor();
+        enviarServidor();
         frase = R.string.sucess;
         Intent intent = new Intent(ResultActivity.this, MainActivity.class);
         startActivity(intent);
@@ -125,7 +125,7 @@ public class ResultActivity extends AppCompatActivity {
                 //Toast.makeText(ResultActivity.this, "posição selecionada=" + arg1, Toast.LENGTH_SHORT).show();
                 atividade = itens.get(arg1);
                 alerta.dismiss();
-                //enviarServidor();
+                enviarServidor();
                 frase = R.string.fail;
                 Intent intent = new Intent(ResultActivity.this, MainActivity.class);
                 startActivity(intent);
@@ -138,14 +138,14 @@ public class ResultActivity extends AppCompatActivity {
 
     public void enviarServidor(){
 
-        //if (result != 0 ) {
-        try {
-            SharedPreferences sharedPref = getSharedPreferences("USER_DATA", Context.MODE_PRIVATE);
-            idUser = sharedPref.getString("idUser", "");
-            FileManager.getInstance().getSignals(idUser, atividade);
-        } catch (IOException e) {
-            Log.d("ERROR: ", "Erro ao Salvar Sinais.");
+        if (!(atividade == "Nenhuma")) {
+            try {
+                SharedPreferences sharedPref = getSharedPreferences("USER_DATA", Context.MODE_PRIVATE);
+                idUser = sharedPref.getString("idUser", "");
+                FileManager.getInstance().getSignals(idUser, atividade);
+            } catch (IOException e) {
+                Log.d("RESULTACTIVITY", "ERRO AO INICIAR ENVIO DOS SINAIS!");
+            }
         }
-        //}
     }
 }

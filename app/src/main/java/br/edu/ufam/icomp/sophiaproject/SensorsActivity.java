@@ -38,7 +38,7 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensors);
 
-        String device = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
+        //String device = android.os.Build.MANUFACTURER + " " + android.os.Build.MODEL;
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -52,11 +52,10 @@ public class SensorsActivity extends AppCompatActivity implements SensorEventLis
 
         mApiClient.connect();
 
-        FileManager.getInstance().appendAcc(device  + "\n");
-        FileManager.getInstance().appendGyr(device  + "\n");
+        //FileManager.getInstance().appendAcc(device  + "\n");
+        //FileManager.getInstance().appendGyr(device  + "\n");
 
     }
-
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MyEvent event) {
